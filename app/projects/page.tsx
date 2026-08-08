@@ -88,7 +88,16 @@ export default function ProjectsPage() {
               ))}
             </div>
           </TabsContent>
-          <TabsContent value="kits" className="min-h-72" aria-label="About the Kits content" />
+          <TabsContent value="kits" className="min-h-72" aria-label="About the Kits content">
+            <article className="mx-auto max-w-4xl rounded-3xl border border-border bg-background p-6 sm:p-8 md:p-10">
+              <h2 className="font-heading text-3xl font-extrabold tracking-tight text-balance sm:text-4xl">
+                Inside every STEM kit
+              </h2>
+              <p className="mt-6 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
+                Each STEM kit contains four hands-on experiments, an instructional pamphlet outlining the steps and lessons, and video tutorials accessible through scanning QR codes. The experiments expose the children to various STEM disciplines, including chemistry, computer science, engineering, and biotechnology. Past kits created and donated have included activities such as creating a DIY flashlight, designing chromatography flowers, and assembling a prosthetic hand.
+              </p>
+            </article>
+          </TabsContent>
         </Tabs>
       </section>
     </main>
