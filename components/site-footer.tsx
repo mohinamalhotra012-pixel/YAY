@@ -13,10 +13,7 @@ export function SiteFooter() {
             height={1024}
             className="size-14 rounded-full object-cover"
           />
-          <div>
-            <p className="font-heading font-bold text-foreground">Smiles Through STEM</p>
-            <p className="text-sm text-muted-foreground">Curiosity, comfort, and care.</p>
-          </div>
+          <p className="font-heading font-bold text-foreground">Smiles Through STEM</p>
         </div>
         <div className="flex flex-col gap-2 text-sm text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
           <Link className="transition-colors hover:text-primary" href="mailto:smilesthroughstem@gmail.com">
