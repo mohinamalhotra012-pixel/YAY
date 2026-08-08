@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { ImagePlaceholder } from '@/components/image-placeholder'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
 export const metadata: Metadata = {
@@ -83,11 +82,7 @@ export default function ProjectsPage() {
                               className="aspect-[4/3] w-full object-cover"
                             />
                           </div>
-                        ) : (
-                          <div className="max-w-72 text-left">
-                            <ImagePlaceholder label={`Insert photo for ${item.date}`} />
-                          </div>
-                        )}
+                        ) : null}
                       </div>
                     </div>
                   </article>
