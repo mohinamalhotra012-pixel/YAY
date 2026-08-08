@@ -10,8 +10,10 @@ export default function DonatePage() {
     <main className="min-h-[70vh] bg-secondary">
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-8 md:py-20">
         <div className="max-w-3xl">
-          <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">Support the work</p>
-          <h1 className="mt-3 font-heading text-4xl font-extrabold tracking-tight sm:text-5xl">Help bring STEM to a child</h1>
+          <div className="text-center">
+            <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">Support the work</p>
+            <h1 className="mt-3 font-heading text-4xl font-extrabold tracking-tight sm:text-5xl">Donate</h1>
+          </div>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground">
             Smiles Through STEM is raising funds to support children during difficult times. Your donation will help provide each child with a STEM kit containing four experiments, an instructional pamphlet outlining the steps and lessons, and video tutorials accessible by scanning QR codes.
           </p>
