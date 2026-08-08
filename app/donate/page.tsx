@@ -9,7 +9,7 @@ export default function DonatePage() {
   return (
     <main className="min-h-[70vh] bg-secondary">
       <section className="mx-auto max-w-5xl px-5 py-16 sm:px-8 md:py-20">
-        <div className="max-w-3xl">
+        <div className="mx-auto max-w-3xl text-center">
           <div className="text-center">
             <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">Support the work</p>
             <h1 className="mt-3 font-heading text-4xl font-extrabold tracking-tight sm:text-5xl">Donate</h1>
