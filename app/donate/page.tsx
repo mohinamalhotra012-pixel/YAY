@@ -11,6 +11,14 @@ export default function DonatePage() {
       <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8 md:py-20">
         <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">Support the work</p>
         <h1 className="mt-3 font-heading text-4xl font-extrabold tracking-tight sm:text-5xl">Donate</h1>
+        <a
+          href="https://gofund.me/24ebe10f8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block text-base font-semibold text-primary underline underline-offset-4 hover:no-underline"
+        >
+          gofund.me/24ebe10f8
+        </a>
       </section>
     </main>
   )
