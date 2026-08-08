@@ -47,13 +47,13 @@ export default function ProjectsPage() {
                           : 'md:col-start-2 md:pl-12'
                       }
                     >
-                      <p className="text-sm font-extrabold uppercase tracking-wider text-primary">{item.date}</p>
-                      <h2 className="mt-3 font-heading text-xl font-extrabold leading-snug text-balance sm:text-2xl">
+                      <p className="text-xs font-extrabold uppercase tracking-wider text-primary">{item.date}</p>
+                      <h2 className="mt-2 font-heading text-lg font-extrabold leading-snug text-balance sm:text-xl">
                         {item.detail}
                       </h2>
-                      <div className={index % 2 === 0 ? 'mt-5 md:ml-auto' : 'mt-5'}>
+                      <div className={index % 2 === 0 ? 'mt-4 md:ml-auto' : 'mt-4'}>
                         {index === 0 ? (
-                          <div className="ml-0 max-w-sm overflow-hidden rounded-2xl bg-muted md:ml-auto">
+                          <div className="ml-0 max-w-72 overflow-hidden rounded-2xl bg-muted md:ml-auto">
                             <Image
                               src="/images/img-8711.jpg"
                               alt="Smiles Through STEM kits prepared for the June 2024 donation"
@@ -64,7 +64,7 @@ export default function ProjectsPage() {
                             />
                           </div>
                         ) : index === 1 ? (
-                          <div className="max-w-sm overflow-hidden rounded-2xl bg-muted">
+                          <div className="max-w-72 overflow-hidden rounded-2xl bg-muted">
                             <Image
                               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_2303%20%281%29%20%281%29-TRHD9QbSh7bsVrEHz3hk0uTs5tfKYJ.jpg"
                               alt="Smiles Through STEM donation drop-off at Vanderbilt Children’s Hospital"
@@ -74,7 +74,7 @@ export default function ProjectsPage() {
                             />
                           </div>
                         ) : index === 2 ? (
-                          <div className="max-w-xs overflow-hidden rounded-2xl bg-muted">
+                          <div className="ml-0 max-w-72 overflow-hidden rounded-2xl bg-muted md:ml-auto">
                             <Image
                               src="/images/mercy-community-healthcare-july-2026.png"
                               alt="Smiles Through STEM delivering kits to Mercy Community Healthcare in July 2026"
@@ -84,7 +84,7 @@ export default function ProjectsPage() {
                             />
                           </div>
                         ) : (
-                          <div className="max-w-sm text-left">
+                          <div className="max-w-72 text-left">
                             <ImagePlaceholder label={`Insert photo for ${item.date}`} />
                           </div>
                         )}
