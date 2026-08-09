@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 const impact = [
   { value: '200+', label: 'Kits donated', icon: PackageOpen },
   { value: '3', label: 'Partner organizations', icon: Building2 },
-  { value: '2', label: 'Volunteers', icon: HandHeart },
+  { value: '5', label: 'Volunteers', icon: HandHeart },
 ]
 
 export default function HomePage() {
