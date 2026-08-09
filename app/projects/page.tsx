@@ -19,7 +19,8 @@ export default function ProjectsPage() {
     <main>
       <section className="bg-secondary">
         <div className="mx-auto max-w-6xl px-5 py-16 text-center sm:px-8 md:py-20">
-          <h1 className="font-heading text-4xl font-extrabold tracking-tight text-balance sm:text-5xl">Projects</h1>
+          <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">Our Work</p>
+          <h1 className="mt-3 font-heading text-4xl font-extrabold tracking-tight text-balance sm:text-5xl">Projects</h1>
         </div>
       </section>
 
