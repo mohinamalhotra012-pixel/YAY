@@ -11,8 +11,9 @@ export default function AboutPage() {
   return (
     <main>
       <section className="bg-muted">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 md:py-20">
-          <h1 className="mx-auto max-w-3xl text-center font-heading text-4xl font-extrabold tracking-tight text-balance sm:text-5xl">
+        <div className="mx-auto max-w-6xl px-5 py-16 text-center sm:px-8 md:py-20">
+          <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">Learn More</p>
+          <h1 className="mt-3 font-heading text-4xl font-extrabold tracking-tight text-balance sm:text-5xl">
             About Us
           </h1>
         </div>
