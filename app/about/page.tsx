@@ -22,9 +22,14 @@ export default function AboutPage() {
         <div>
           <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-primary">The Story</p>
           <h2 className="mt-3 font-heading text-3xl font-extrabold tracking-tight sm:text-4xl">A personal mission</h2>
-          <p className="mt-7 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            {"My name is Arshia Malhotra, and I am a sophomore enrolled in a Medical School Early Acceptance Program at Middle Tennessee State University. Spending hours volunteering in a medical center and with organizations supporting those with disabilities exposed me to the struggles they face, particularly the children. These children often experience significant anxiety, and those with extended hospital stays might even be missing school to receive the care they require. To bring some positivity during this stressful time, I began creating and donating hands-on STEM kits in 2024, providing children the opportunity to engage in experiments that spark curiosity. Since then, I have distributed over 200 STEM kits to children's hospitals and health centers throughout Middle Tennessee. My desire to support these children has only grown stronger, as I am now working to expand the scope and impact of this initiative."}
-          </p>
+          <div className="mt-7 flex flex-col gap-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
+            <p>
+              {"My name is Arshia Malhotra, and I am a sophomore enrolled in a Medical School Early Acceptance Program at Middle Tennessee State University. Spending hours volunteering in a medical center and with organizations supporting those with disabilities exposed me to the struggles they face, particularly the children. These children often experience significant anxiety, and those with extended hospital stays might even be missing school to receive the care they require."}
+            </p>
+            <p>
+              {"To bring some positivity during this stressful time, I began creating and donating hands-on STEM kits in 2024, providing children the opportunity to engage in experiments that spark curiosity. Since then, I have distributed over 200 STEM kits to children's hospitals and health centers throughout Middle Tennessee. My desire to support these children has only grown stronger, as I am now working to expand the scope and impact of this initiative."}
+            </p>
+          </div>
         </div>
         <figure className="w-full max-w-xs justify-self-center overflow-hidden rounded-3xl bg-muted shadow-sm">
           <Image
